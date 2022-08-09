@@ -1,7 +1,7 @@
 # Button-component
 
 . How to use
-- clone this repo [https://github.com/Sagar160301/Button-component.git]
+- clone this repo `https://github.com/Sagar160301/Button-component.git`
 - `npm install`
 - `npm start`
 
