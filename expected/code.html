@@ -1,25 +1,42 @@
-<html>
-  <style>
-  body{
-  height:300px;
-    width:400px;
-    background-color:white;
+<div class="rectangle">
+  <div class="circle"></div>
+</div>
+<div class="rectangle center">
+  <div class="circle"></div>
+</div>
+<div class="rectangle">
+  <div class="circle"></div>
+</div>
+<style>
+  * {
+    margin: 0;
   }
-  #parent{
-    height:300px;
-    width:400px;
-    background-color:red;
-    
+  body {
+    background: #62306D;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 50px;
   }
-  #name{
-    height:100px;
-    width:200px;
-    background-color:green;
+  .rectangle {
+    background: #F7EC7D;
+    width: calc(100% / 3);
+    height: 100px;
+  }
+  .rectangle.center {
+    height: 200px;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #E38F66;
+    border-radius: 50%;
+   	border: 20px solid #AA445F;
+    box-sizing: border-box;
+    margin-top: -50px;
+  }
+  .center .circle {
+    background: #AA445F;
+    border-color: #E38F66;
   }
 </style>
-  <body>
-  <div id="parent">
-  <div id="name"></div>
-</div>
-  </body>
-</html>
