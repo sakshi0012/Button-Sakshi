@@ -1,32 +1,27 @@
 <html>
-
 <style>
+  *{
+  margin:0;
+  }
 body{
-  height:300px;width:400px;
+width:400px;height:300px;
 }
+
 #parent{
-  height:100%;width:100%;background-color:green;
-display:flex;justify-content:space-evenly;flex-direction:column;
+  width:100%;height:100%;
+  background-color:yellow;
+  display:flex;justify-content:center;align-items:center;
+
+
 }
-.oneChild{
-display:flex;justify-content:space-evenly;
-}
-.child{
-height:50px;width:50px;background-color:orange;
+#child{
+  height:100px;width:100px;background-color:orange;
+
 }
 </style>
 <body>
 <div id="parent">
-<div class="oneChild">
-<div class="child"></div>
-<div class="child"></div>
-</div>
-<div class="oneChild">
-<div class="child"></div>
-<div class="child"></div>
-</div>
-
-
+<div id="child"></div>
 </div>
 </body>
 </html>
